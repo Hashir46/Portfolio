@@ -155,4 +155,7 @@
     height: 2px;
     width: 21px;
   }
+  #cont{
+    height: 60vh; 
+  }
 }
