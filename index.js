@@ -98,3 +98,31 @@ document.getElementById('submit').addEventListener('click',() => {
     alert("Thank You for your message");
   }
 })
+
+function borderBtn(){
+  home.style.borderBottom = "transparent";
+  abt.style.borderBottom = "transparent";
+  pro.style.borderBottom = "transparent";
+  cont.style.borderBottom = "transparent";
+}
+let home = document.getElementById('home1');
+let abt = document.getElementById('abt1');
+let pro = document.getElementById('pro1');
+let cont = document.getElementById('cont1');
+
+home.addEventListener('click', () => {
+  borderBtn();
+  home.style.borderBottom = '1px solid #ff6900';
+});
+abt.addEventListener('click', () => {
+  borderBtn();
+  abt.style.borderBottom = '1px solid #ff6900';
+});
+pro.addEventListener('click', () => {
+  borderBtn();
+  pro.style.borderBottom = '1px solid #ff6900';
+});
+cont.addEventListener('click', () => {
+  borderBtn();
+  cont.style.borderBottom = '1px solid #ff6900';
+});

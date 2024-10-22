@@ -77,6 +77,9 @@
   width: 240px;
 }
 @media(max-width:450px){
+  #cont{
+    height: 60vh; 
+  }
   #navbar h2{
     font-size: 18px;
   }
@@ -155,7 +158,5 @@
     height: 2px;
     width: 21px;
   }
-  #cont{
-    height: 60vh; 
-  }
+  
 }

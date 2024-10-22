@@ -53,6 +53,9 @@ body{
  padding: 10px;
 
 }
+#home1{
+  border-bottom: 1px solid #F15412;
+}
 .nav-items ul li a{
 
  color: #ff6900 ;
