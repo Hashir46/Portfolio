@@ -1,0 +1,16 @@
+#About{
+  text-align: center;
+  padding: 14px;
+}
+.abt-cls{
+  flex: 1 1 430px;
+}
+#skills, #edu, #exp{
+  font-size: 16px;
+}
+.pro{
+  padding-top: 25px;
+}
+#edu, #exp{
+  padding: 2px;
+}

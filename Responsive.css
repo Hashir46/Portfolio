@@ -45,36 +45,63 @@
 #section, #About{
   height: auto;
 }
-#cont{
-  height: 100vh;
-  padding-top: 15px;
-  text-align: center;
-}
-#contact-me{
-  padding-top: 110px;
-}
-#cont h1{
-  padding-bottom: 10px;
-  font-size: 24px;
-}
-#foot{
-  height: 30vh;
+.my-detail{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  /* font-size: 15px; */
 }
-.flip-card{
-  width: 272px;
-  height: 282px;
+.my-detail h4{
+  text-align: center;
+  font-size: 15px;
 }
-.flip-card-front img{
-  width: 270px;
-  height: 280px;
+@media(max-width:790px){
+  #cont{
+    height: 100vh;
+    padding-top: 15px;
+    text-align: center;
+  }
+  #contact-me{
+    padding-top: 110px;
+  }
+  #cont h1{
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+  #foot{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .flip-card{
+    width: 272px;
+    height: 282px;
+  }
+  .flip-card-front img{
+    width: 270px;
+    height: 280px;
+  }
+  .card1,.card2,.card2 img{
+    height: 360px;
+    width: 240px;
+  }
 }
-.card1,.card2,.card2 img{
-  height: 360px;
-  width: 240px;
+@media(max-width:576px){
+  .my-detail{
+    font-size: 16px;
+  }
+  #hire, .bttn{
+    font-size: 15px;
+  }
+  /* #skills, #edu, #exp{
+    font-size: 14px;
+  } */
+  #edu h4, #edu h5{
+    font-size: 15px;
+  }
 }
 @media(max-width:450px){
   #cont{
@@ -86,14 +113,21 @@
   .about-content{
     font-size: 13px;
   }
+  #skills, #edu, #exp{
+    font-size: 11px;
+    padding-left: 0px;
+    text-wrap: nowrap;
+  }
+  #edu h3{
+    font-size: 14px;
+  }
+  #edu h4, #edu h5{
+    font-size: 12px;
+  }
   #skill, #experience, #education{
     font-size: 11px;
   }
-  #skills, #edu, #exp{
-    font-size: 11px;
-    padding-left: 3px;
-    text-wrap: nowrap;
-  }
+ 
   .my-detail, .my-detail h4{
     font-size: 10px;
   }
