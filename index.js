@@ -173,7 +173,7 @@ const projectData = {
       image: "img/qr2.jpg"
     },
     {
-      title: "Bikar",
+      title: "Bikar-X",
       tools: ["HTML & CSS"],
       buttons: {
         view: {
