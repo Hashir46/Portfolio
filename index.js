@@ -26,48 +26,6 @@ function toggleMenu() {
   navItems.classList.toggle('active');
 }
 
-// Projects-1
-document.querySelector('.view1').addEventListener('click', () => {
-  window.location.href = 'https://hash-restaurant.netlify.app/';
-});
-document.querySelector('.git1').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Hash-Restaurant.git';
-});
-// Projects-2
-document.querySelector('.view2').addEventListener('click', () => {
-  window.location.href = 'https://glow-haven.netlify.app/';
-});
-document.querySelector('.git2').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Glow-Haven.git';
-});
-// Projects-3
-document.querySelector('.view3').addEventListener('click', () => {
-  window.location.href = 'https://zenithfit-gym-website.netlify.app/';
-});
-document.querySelector('.git3').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Gym-Website.git';
-});
-// Projects-4
-document.querySelector('.view4').addEventListener('click', () => {
-  window.location.href = 'https://hashir-todo-list.netlify.app/';
-});
-document.querySelector('.git4').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Todo-List.git';
-});
-// Projects-5
-document.querySelector('.view5').addEventListener('click', () => {
-  window.location.href = 'https://hashir-color-picker.netlify.app/';
-});
-document.querySelector('.git5').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Color-Picker.git';
-});
-// Projects-2
-document.querySelector('.view6').addEventListener('click', () => {
-  window.location.href = 'https://hashir-qr-code-generator.netlify.app/';
-});
-document.querySelector('.git6').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/QR-Code-Generator.git';
-});
 
 // onscroll
 window.onscroll = function () {
@@ -126,3 +84,110 @@ cont.addEventListener('click', () => {
   borderBtn();
   cont.style.borderBottom = '1px solid #ff6900';
 });
+
+const projectData = {
+  projects: [
+    {
+      title: "Glow-Haven",
+      tools: ["Bootstrap"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://glow-haven.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Glow-Haven.git"
+        }
+      },
+      image: "img/Pink Illustration Beauty Product Logo.png"
+    },
+    {
+      title: "Zenith-Fit",
+      tools: ["HTML & CSS"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://zenithfit-gym-website.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Gym-Website.git"
+        }
+      },
+      image: "img/ZenithFit logo.png"
+    },
+    {
+      title: "Todo-List",
+      tools: ["JavaScript"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://hashir-todo-list.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Todo-List.git"
+        }
+      },
+      image: "img/Flat Design To-Do List Instagram Post.png"
+    },
+    {
+      title: "Color-Picker",
+      tools: ["JavaScript"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://hashir-color-picker.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Color-Picker.git"
+        }
+      },
+      image: "img/color_pick.webp"
+    },
+    {
+      title: "QR-Generator",
+      tools: ["JavaScript"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://hashir-qr-code-generator.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/QR-Code-Generator.git"
+        }
+      },
+      image: "img/qr2.jpg"
+    },
+    {
+      title: "Bikar",
+      tools: ["HTML & CSS"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://bikar-x.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Bikar-X-Website.git"
+        }
+      },
+      image: "img/bikar.jpg"
+    }
+  ]
+};

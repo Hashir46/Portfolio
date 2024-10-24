@@ -200,7 +200,7 @@
             </div>
             <div class="flip-card-back">
               <h3 style="color: #ff6900;padding-bottom: 10px;">Restaurant Website</h3>
-              <h4 style="padding-bottom: 10px;"><span style="color: #ff6900;">Using:</span> JavaScript</h4>
+              <h4 style="padding-bottom: 10px;"><span style="color: #ff6900;">Using:</span> HTML ,CSS & JavaScript</h4>
               <div id="pro-btn">
                 <button id="view" class="view1">
                   <i class="fa-solid fa-eye"></i>View
@@ -214,7 +214,7 @@
           </div>
         </div>
         <!-- Project-2 -->
-        <div class="flip-card" data-aos="fade-up">
+        <!-- <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="img/Pink Illustration Beauty Product Logo.png" alt="" />
@@ -233,9 +233,9 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Project-3 -->
-        <div class="flip-card" data-aos="fade-up">
+        <!-- <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="img/ZenithFit logo.png" alt="" />
@@ -254,11 +254,12 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-      <div id="Projects">
+
+      <!-- <div id="Projects"> -->
         <!-- Project-4 -->
-        <div class="flip-card" data-aos="fade-up">
+        <!-- <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="img/Flat Design To-Do List Instagram Post.png" alt="" />
@@ -277,9 +278,9 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Project-5 -->
-        <div class="flip-card" data-aos="fade-up">
+        <!-- <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="img/color_pick.webp" alt="" />
@@ -298,9 +299,9 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Project-6 -->
-        <div class="flip-card" data-aos="fade-up">
+        <!-- <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="img/qr2.jpg" alt="" />
@@ -320,7 +321,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Contacts -->
       <div id="cont" data-aos="fade-right">
         <h1 style="color: #ff6900; text-align: center;">
@@ -366,6 +367,36 @@
     </div>
     <script src="index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      
+  
+      // Loop through each project and render it
+      projectData.projects.forEach(project => {
+        document.getElementById("Projects").innerHTML += `
+          <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="${project.image}" alt="${project.title}" />
+              </div>
+              <div class="flip-card-back">
+                <h3 style="color: #ff6900;padding-bottom: 10px;">${project.title}</h3>
+                <h4 style="padding-bottom: 10px;"><span style="color: #ff6900;">Using:</span> ${project.tools.join(', ')}</h4>
+                <div id="pro-btn">
+                  <button id="view" class="view1" onclick="window.open('${project.buttons.view.url}', '_blank')">
+                    <i class="${project.buttons.view.icon}"></i>${project.buttons.view.label}
+                  </button>
+                  <button id="git" class="git1" onclick="window.open('${project.buttons.github.url}', '_blank')">
+                    <i class="${project.buttons.github.icon}"></i>${project.buttons.github.label}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+  </script>
+  
+    
     <script>
       AOS.init();
       AOS.init();
