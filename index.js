@@ -85,8 +85,44 @@ cont.addEventListener('click', () => {
   cont.style.borderBottom = '1px solid #ff6900';
 });
 
+//Project:
+document.getElementById('git').addEventListener('click', () => {
+  const gitUrl = 'https://github.com/Hashir46/StudentsManaementSystem.git';
+  window.open = (gitUrl);
+})
+
 const projectData = {
   projects: [
+    {
+      title: "Online Library",
+      tools: ["Java"],
+      buttons: {
+        
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Online-Library.git"
+        }
+      },
+      image: "img/Online-library.jpg"
+    },
+    {
+      title: "Restaurant Website",
+      tools: ["HTML ,CSS & JavaScript"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: "https://hash-restaurant.netlify.app/"
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Hash-Restaurant.git"
+        }
+      },
+      image: "img/Yellow White Emblem Restaurant Logo.png"
+    },
     {
       title: "Glow-Haven",
       tools: ["Bootstrap"],
@@ -172,22 +208,6 @@ const projectData = {
       },
       image: "img/qr2.jpg"
     },
-    {
-      title: "Bikar-X",
-      tools: ["HTML & CSS"],
-      buttons: {
-        view: {
-          label: "View",
-          icon: "fa-solid fa-eye",
-          url: "https://bikar-x.netlify.app/"
-        },
-        github: {
-          label: "Github",
-          icon: "fa-brands fa-github",
-          url: "https://github.com/Hashir46/Bikar-X-Website.git"
-        }
-      },
-      image: "img/bikar.jpg"
-    }
+    
   ]
 };
