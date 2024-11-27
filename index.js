@@ -85,11 +85,7 @@ cont.addEventListener('click', () => {
   cont.style.borderBottom = '1px solid #ff6900';
 });
 
-//Project:
-document.getElementById('git').addEventListener('click', () => {
-  const gitUrl = 'https://github.com/Hashir46/StudentsManaementSystem.git';
-  window.open = (gitUrl);
-})
+
 
 const projectData = {
   projects: [
