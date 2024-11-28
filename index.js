@@ -87,7 +87,19 @@ cont.addEventListener('click', () => {
 
 const projectData = {
   projects: [
-    
+    {
+      title: "Student Management System",
+      tools: ["Java, JDBC, MySQL"],
+      buttons: {
+        
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/StudentsManaementSystem.git"
+        }
+      },
+      image: "img/student-management.webp"
+    },
     {
       title: "Glow-Haven",
       tools: ["Bootstrap"],
