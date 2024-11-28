@@ -139,6 +139,23 @@ const projectData = {
       image: "img/Online-library2.jpg"
     },
     {
+      title: "Rock-Paper-Scissor",
+      tools: ["Java"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: ""
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Rock_Paper_Scissor.git"
+        }
+      },
+      image: "img/rock-paper-scissor.png"
+    },
+    {
       title: "Glow-Haven",
       tools: ["Bootstrap"],
       buttons: {
@@ -189,23 +206,7 @@ const projectData = {
       },
       image: "img/Flat Design To-Do List Instagram Post.png"
     },
-    {
-      title: "Color-Picker",
-      tools: ["JavaScript"],
-      buttons: {
-        view: {
-          label: "View",
-          icon: "fa-solid fa-eye",
-          url: "https://hashir-color-picker.netlify.app/"
-        },
-        github: {
-          label: "Github",
-          icon: "fa-brands fa-github",
-          url: "https://github.com/Hashir46/Color-Picker.git"
-        }
-      },
-      image: "img/color_pick.webp"
-    },
+   
     {
       title: "QR-Generator",
       tools: ["JavaScript"],
