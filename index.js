@@ -85,13 +85,25 @@ cont.addEventListener('click', () => {
   cont.style.borderBottom = '1px solid #ff6900';
 });
 
+document.querySelector('.view1').addEventListener('click', () => {
+  window.location.href = 'https://hash-restaurant.netlify.app/';
+})
+
+document.querySelector('.git1').addEventListener('click', () => {
+  window.location.href = 'https://github.com/Hashir46/Hash-Restaurant.git';
+})
+
 const projectData = {
   projects: [
     {
       title: "Student Management System",
       tools: ["Java, JDBC, MySQL"],
       buttons: {
-        
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: ""
+        },
         github: {
           label: "Github",
           icon: "fa-brands fa-github",
@@ -104,7 +116,11 @@ const projectData = {
       title: "Online Library",
       tools: ["Java"],
       buttons: {
-       
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: ""
+        },
         github: {
           label: "Github",
           icon: "fa-brands fa-github",
