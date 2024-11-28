@@ -85,13 +85,22 @@ cont.addEventListener('click', () => {
   cont.style.borderBottom = '1px solid #ff6900';
 });
 
-let view = document.querySelector('.view1').addEventListener('click', () => {
-  window.location.href = 'https://hash-restaurant.netlify.app/';
-})
+//Projects:
+document.addEventListener('DOMContentLoaded', () => {
+  const viewButton = document.getElementById('view');
+  const gitButton = document.getElementById('git');
 
-let git = document.querySelector('.git1').addEventListener('click', () => {
-  window.location.href = 'https://github.com/Hashir46/Hash-Restaurant.git';
-})
+  const viewLink = 'https://hash-restaurant.netlify.app/';
+  const gitLink = 'https://github.com/Hashir46/Hash-Restaurant.git';
+
+  viewButton.addEventListener('click', () => {
+    window.location.href = viewLink;
+  });
+
+  gitButton.addEventListener('click', () => {
+    window.location.href = gitLink;
+  });
+});
 
 const projectData = {
   projects: [
@@ -114,7 +123,7 @@ const projectData = {
     },
     {
       title: "Online Library",
-      tools: ["Java"],
+      tools: ["Core Java"],
       buttons: {
         view: {
           label: "View",
