@@ -91,7 +91,11 @@ const projectData = {
       title: "Student Management System",
       tools: ["Java, JDBC, MySQL"],
       buttons: {
-       
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: ""
+        },
         github: {
           label: "Github",
           icon: "fa-brands fa-github",
@@ -99,6 +103,23 @@ const projectData = {
         }
       },
       image: "img/student-management.webp"
+    },
+    {
+      title: "Online Library",
+      tools: ["Java"],
+      buttons: {
+        view: {
+          label: "View",
+          icon: "fa-solid fa-eye",
+          url: ""
+        },
+        github: {
+          label: "Github",
+          icon: "fa-brands fa-github",
+          url: "https://github.com/Hashir46/Online-Library.git"
+        }
+      },
+      image: "img/Online-library.jpg"
     },
     {
       title: "Glow-Haven",
