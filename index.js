@@ -92,9 +92,9 @@ const projectData = {
       tools: ["Java, JDBC, MySQL"],
       buttons: {
         view: {
-          label: "View",
-          icon: "fa-solid fa-eye",
-          url: ""
+          label: "",
+          icon: "",
+          url: "https://glow-haven.netlify.app/"
         },
         github: {
           label: "Github",
@@ -109,9 +109,9 @@ const projectData = {
       tools: ["Java"],
       buttons: {
         view: {
-          label: "View",
-          icon: "fa-solid fa-eye",
-          url: ""
+          label: "",
+          icon: "",
+          url: "https://glow-haven.netlify.app/"
         },
         github: {
           label: "Github",
@@ -206,22 +206,6 @@ const projectData = {
       },
       image: "img/qr2.jpg"
     },
-    {
-      title: "Bikar-X",
-      tools: ["HTML & CSS"],
-      buttons: {
-        view: {
-          label: "View",
-          icon: "fa-solid fa-eye",
-          url: "https://bikar-x.netlify.app/"
-        },
-        github: {
-          label: "Github",
-          icon: "fa-brands fa-github",
-          url: "https://github.com/Hashir46/Bikar-X-Website.git"
-        }
-      },
-      image: "img/bikar.jpg"
-    }
+   
   ]
 };
