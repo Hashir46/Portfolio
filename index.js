@@ -85,11 +85,11 @@ cont.addEventListener('click', () => {
   cont.style.borderBottom = '1px solid #ff6900';
 });
 
-document.querySelector('.view1').addEventListener('click', () => {
+let view = document.querySelector('.view1').addEventListener('click', () => {
   window.location.href = 'https://hash-restaurant.netlify.app/';
 })
 
-document.querySelector('.git1').addEventListener('click', () => {
+let git = document.querySelector('.git1').addEventListener('click', () => {
   window.location.href = 'https://github.com/Hashir46/Hash-Restaurant.git';
 })
 
