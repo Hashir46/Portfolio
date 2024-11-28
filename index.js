@@ -119,7 +119,7 @@ const projectData = {
           url: "https://github.com/Hashir46/Online-Library.git"
         }
       },
-      image: "img/Online-library.jpg"
+      image: "img/Online-library2.jpg"
     },
     {
       title: "Glow-Haven",
