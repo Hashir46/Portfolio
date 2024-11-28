@@ -91,11 +91,7 @@ const projectData = {
       title: "Student Management System",
       tools: ["Java, JDBC, MySQL"],
       buttons: {
-        view: {
-          label: "",
-          icon: "",
-          url: "https://glow-haven.netlify.app/"
-        },
+        
         github: {
           label: "Github",
           icon: "fa-brands fa-github",
@@ -108,11 +104,7 @@ const projectData = {
       title: "Online Library",
       tools: ["Java"],
       buttons: {
-        view: {
-          label: "",
-          icon: "",
-          url: "https://glow-haven.netlify.app/"
-        },
+       
         github: {
           label: "Github",
           icon: "fa-brands fa-github",
